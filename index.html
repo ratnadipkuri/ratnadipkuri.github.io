@@ -3,104 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ratnadip Kuri - Academic Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: #2c3e50;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    nav {
-      background: #34495e;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #2c3e50;
-      margin-top: 40px;
-    }
-    footer {
-      background: #2c3e50;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-  </style>
+  <title>Ratnadip Kuri - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Ratnadip Kuri</h1>
-    <p>Researcher | NLP | Computer Vision | CSE Department, NSTU</p>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-gray-900 text-white py-8 text-center shadow-md">
+    <h1 class="text-3xl font-bold">Ratnadip Kuri</h1>
+    <p class="mt-2 text-lg">Researcher | NLP | Computer Vision | CSE Department, NSTU</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#contact">Contact</a>
+  <!-- Navbar -->
+  <nav class="bg-gray-800 text-white py-3 shadow-md">
+    <ul class="flex justify-center space-x-6">
+      <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+      <li><a href="research.html" class="hover:text-yellow-400">Research</a></li>
+      <li><a href="projects.html" class="hover:text-yellow-400">Projects</a></li>
+      <li><a href="teaching.html" class="hover:text-yellow-400">Teaching</a></li>
+      <li><a href="contact.html" class="hover:text-yellow-400">Contact</a></li>
+    </ul>
   </nav>
 
-  <div class="container">
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I am a researcher focusing on Natural Language Processing and Computer Vision. Currently working at the Computer Science and Telecommunication Engineering Department, Noakhali Science and Technology University.</p>
-    </section>
+  <!-- Content -->
+  <main class="max-w-4xl mx-auto px-6 py-12 text-center">
+    <h2 class="text-2xl font-semibold mb-4">Welcome</h2>
+    <p class="text-gray-700">Hello! I’m Ratnadip Kuri, a researcher specializing in Natural Language Processing (NLP) and Computer Vision. I work in the Computer Science and Telecommunication Engineering Department, Noakhali Science and Technology University. Explore my portfolio to know more about my research, projects, and teaching contributions.</p>
+  </main>
 
-    <section id="research">
-      <h2>Research & Publications</h2>
-      <ul>
-        <li><b>Paper 1:</b> Title of your paper – Journal/Conference, Year. <a href="#">[Link]</a></li>
-        <li><b>Paper 2:</b> Another publication – Journal/Conference, Year. <a href="#">[Link]</a></li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Mango variety classification using CNN</li>
-        <li>Intent classification with SVM variants</li>
-        <li>Retinal disease detection with deep learning</li>
-      </ul>
-    </section>
-
-    <section id="teaching">
-      <h2>Teaching</h2>
-      <p>I am involved in teaching core CSE courses such as Programming in C, Operating Systems, and Object-Oriented Programming.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: your-email@example.com</p>
-      <p>GitHub: <a href="https://github.com/ratnadipkuri">github.com/ratnadipkuri</a></p>
-      <p>Google Scholar: <a href="#">Scholar Profile</a></p>
-      <p>LinkedIn: <a href="#">LinkedIn Profile</a></p>
-    </section>
-  </div>
-
-  <footer>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6 mt-12">
     <p>© 2025 Ratnadip Kuri | Powered by GitHub Pages</p>
   </footer>
 </body>
